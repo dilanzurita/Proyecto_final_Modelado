@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  redis1:
+    image: redis
+    command: redis-server --appendonly yes --requirepass password
+    ports:
+      - 6379:6379
+    volumes:
+      - redis1:/data
+    networks:
+      - redis_network
+
+  redis2:
+    image: redis
+    command: redis-server --appendonly yes --requirepass password --slaveof redis1 6379
+    volumes:
+      - redis2:/data
+    networks:
+      - redis_network
+
+  redis3:
+    image: redis
+    command: redis-server --appendonly yes --requirepass password --slaveof redis1 6379
+    volumes:
+      - redis3:/data
+    networks:
+      - redis_network
+
+networks:
+  redis_network:
+
+volumes:
+  redis1:
+  redis2:
+  redis3:

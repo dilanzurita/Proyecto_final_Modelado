@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <form method="POST" action="/">
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id"><br><br>
+        
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        
+        <label for="provincia">Provincia:</label>
+        <input type="text" id="provincia" name="provincia"><br><br>
+        
+        <label for="clase">Clase:</label>
+        <input type="text" id="clase" name="clase"><br><br>
+        
+        <label for="sector">Sector:</label>
+        <input type="text" id="sector" name="sector"><br><br>
+        
+        <label for="mes">Mes:</label>
+        <input type="text" id="mes" name="mes"><br><br>
+        
+        <label for="sexo">Sexo:</label>
+        <input type="text" id="sexo" name="sexo"><br><br>
+        
+        <label for="edad">Edad:</label>
+        <input type="text" id="edad" name="edad"><br><br>
+        
+        <label for="dias_estadia">Días de Estadía:</label>
+        <input type="text" id="dias_estadia" name="dias_estadia"><br><br>
+        
+        <input type="submit" value="Guardar">
+    </form>
+    
+    <h1>Buscar Registros</h1>
+    <form method="GET" action="/buscar">
+        <label for="buscar_object_id">Buscar por ID MONGO:</label>
+        <input type="text" id="buscar_object_id" name="buscar_object_id">
+        <input type="submit" value="Buscar por Object ID">
+    </form>
+    
+    <form method="GET" action="/buscar">
+        <label for="buscar_id">Buscar por ID ESPE:</label>
+        <input type="text" id="buscar_id" name="buscar_id">
+        <input type="submit" value="Buscar por ID">
+    </form>
+    
+    <h1>Eliminar Registro</h1>
+    <form method="POST" action="/eliminar">
+        <label for="eliminar_id">ID:</label>
+        <input type="text" id="eliminar_id" name="eliminar_id">
+        <input type="submit" value="Eliminar">
+    </form>
+</body>
+</html>
