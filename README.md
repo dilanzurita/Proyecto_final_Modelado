@@ -51,3 +51,5 @@ Para esto se ha trabajado de la mano con un archivo HTML llamado forms.html el c
 **Form.html** 
 
 ![Diagrama](captura7)
+
+![Diagrama](captura8)
