@@ -71,3 +71,25 @@ La replicación de bases de datos con sharding es una técnica avanzada utilizad
 En el proceso de replicación con sharding, cada shard se replica en varios servidores para garantizar la alta disponibilidad y la tolerancia a fallos. Esta redundancia permite que, en caso de que un nodo falle, los datos todavía estén accesibles a través de otras réplicas. Además, la replicación mejora el rendimiento al distribuir la carga de lectura entre las réplicas, reduciendo así la latencia y mejorando la capacidad de respuesta del sistema.
 
 La replicación de bases de datos con sharding ofrece ventajas significativas, pero también plantea desafíos. Por un lado, el diseño adecuado del esquema de particionamiento es esencial para garantizar una distribución equitativa de datos y un rendimiento óptimo. Asimismo, la sincronización y consistencia de los datos entre las réplicas pueden ser complejas de manejar, especialmente en entornos de alta concurrencia. Sin embargo, con una implementación cuidadosa y el uso de tecnologías modernas, la replicación con sharding se convierte en una poderosa solución para satisfacer las demandas de aplicaciones y sistemas cada vez más grandes y exigentes en el mundo actual.
+
+## ETL
+ETL es un acrónimo que hace referencia a "Extracción, Transformación y Carga" en el contexto del procesamiento de datos. Se trata de un proceso fundamental en el ámbito de la gestión y análisis de datos, especialmente en entornos empresariales y sistemas de inteligencia de negocios (BI). La primera fase, Extracción, implica recopilar datos desde diversas fuentes, como bases de datos, archivos, sistemas en línea, y más, para luego prepararlos para su posterior procesamiento.
+
+**Pasos**
+1. Identificar la fuente de datos: Determine la base de datos de la cual deseas extraer los datos. Asegúrate de conocer los detalles de acceso, como la dirección IP o nombre del servidor, el puerto, el nombre de la base de datos y las credenciales de inicio de sesión necesarias para acceder a ella.
+
+2. Seleccionar la herramienta ETL: Elige una herramienta ETL adecuada para tu proyecto. Hay varias opciones disponibles en el mercado, como Apache NiFi, Talend, Microsoft SQL Server Integration Services (SSIS) o Apache Spark.
+
+3. Configurar la conexión de origen: En la herramienta ETL seleccionada, configura la conexión a la base de datos de origen. Proporciona la información requerida, como el tipo de base de datos, dirección del servidor, puerto, nombre de la base de datos y credenciales de acceso.
+
+4. Definir la consulta de extracción: Especifica la consulta SQL o el método de extracción que se utilizará para recuperar los datos de la base de datos de origen. Esto podría ser una consulta simple para obtener todos los registros o una consulta más compleja para filtrar datos específicos.
+
+5. Establecer transformaciones (opcional): Si es necesario, realiza transformaciones en los datos extraídos para adaptarlos al formato requerido en el destino. Estas transformaciones pueden incluir limpieza de datos, conversión de tipos, cálculos, agregaciones, entre otros.
+
+6. Configurar la conexión de destino: Ahora, configura la conexión a la base de datos de destino, donde se cargarán los datos transformados. Proporciona los detalles de acceso y asegúrate de que la estructura de la base de datos de destino coincida con los datos transformados.
+
+7. Definir el proceso de carga: Especifica cómo se cargarán los datos transformados en la base de datos de destino. Puedes optar por una carga completa (siempre reemplazando todos los datos), una carga incremental (solo cargando datos nuevos o modificados desde la última ejecución) o una combinación de ambas.
+
+8. Ejecutar el flujo ETL: Ejecuta el flujo ETL que has configurado. La herramienta ETL se encargará de extraer los datos de la base de datos de origen, aplicar las transformaciones y cargar los datos en la base de datos de destino.
+
+9. Monitorear y mantener el proceso: Supervisa el proceso ETL para asegurarte de que se ejecute correctamente y sin errores. Realiza un mantenimiento regular y ajustes si es necesario, especialmente si hay cambios en las fuentes de datos o en los requisitos de transformación.
