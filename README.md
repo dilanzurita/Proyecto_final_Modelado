@@ -65,3 +65,9 @@ Para elminar un registro se realiza mediante ID de mongo para evitar confuciones
 
 ![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/captura11.PNG)
 ![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/captura12.PNG)
+
+La replicación de bases de datos con sharding es una técnica avanzada utilizada para mejorar la escalabilidad y el rendimiento en sistemas de bases de datos distribuidos. El sharding, también conocido como particionamiento horizontal, consiste en dividir los datos en fragmentos más pequeños o shards y distribuirlos en múltiples servidores o nodos. Cada shard es una partición independiente con su propio conjunto de datos, lo que permite distribuir la carga de trabajo y evitar cuellos de botella en la base de datos.
+
+En el proceso de replicación con sharding, cada shard se replica en varios servidores para garantizar la alta disponibilidad y la tolerancia a fallos. Esta redundancia permite que, en caso de que un nodo falle, los datos todavía estén accesibles a través de otras réplicas. Además, la replicación mejora el rendimiento al distribuir la carga de lectura entre las réplicas, reduciendo así la latencia y mejorando la capacidad de respuesta del sistema.
+
+La replicación de bases de datos con sharding ofrece ventajas significativas, pero también plantea desafíos. Por un lado, el diseño adecuado del esquema de particionamiento es esencial para garantizar una distribución equitativa de datos y un rendimiento óptimo. Asimismo, la sincronización y consistencia de los datos entre las réplicas pueden ser complejas de manejar, especialmente en entornos de alta concurrencia. Sin embargo, con una implementación cuidadosa y el uso de tecnologías modernas, la replicación con sharding se convierte en una poderosa solución para satisfacer las demandas de aplicaciones y sistemas cada vez más grandes y exigentes en el mundo actual.
