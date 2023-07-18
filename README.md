@@ -57,5 +57,11 @@ Para esto se ha trabajado de la mano con un archivo HTML llamado forms.html el c
 -	Buscar un registro 
 Para buscar un registro se ha especificado la búsqueda mediante ID proporcionado por el usuario o ID creado por Mongo
 
+![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/captura9.PNG)
+![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/captua10.PNG?raw=true)
+
+-	Eliminar registro 
+Para elminar un registro se realiza mediante ID de mongo para evitar confuciones con ID similares insertados por el usuario 
+
 ![Diagrama]()
 ![Diagrama]()
