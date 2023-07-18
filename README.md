@@ -10,5 +10,6 @@ La replicación de bases de datos en MongoDB con ETL (Extract, Transform, Load) 
 ## Diagrama del Proyecto
 ![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/WhatsApp%20Image%202023-07-18%20at%2010.57.56%20AM.jpeg?raw=true)
 ## Diagrama a la conexión de la Base de Datos en Mongo
-![Diagrama2]()
-
+![Diagrama2](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/WhatsApp%20Image%202023-07-18%20at%2010.59.30%20AM.jpeg?raw=true)
+## Diagrama de Funcionamiento Replicaset
+![Diagrama]()
