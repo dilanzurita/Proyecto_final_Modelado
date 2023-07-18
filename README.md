@@ -7,9 +7,18 @@ La replicación de bases de datos en MongoDB con ETL (Extract, Transform, Load) 
 - Python 3.11.3
 - Flask 2.2.5
 - UI (Diseño en Front-end)
+## Herramientas Utilizadas
+- Visual Studio Code 
+- Mongo Compass
 ## Diagrama del Proyecto
 ![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/WhatsApp%20Image%202023-07-18%20at%2010.57.56%20AM.jpeg?raw=true)
 ## Diagrama a la conexión de la Base de Datos en Mongo
 ![Diagrama2](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/WhatsApp%20Image%202023-07-18%20at%2010.59.30%20AM.jpeg?raw=true)
 ## Diagrama de Funcionamiento Replicaset
-![Diagrama]()
+![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/WhatsApp%20Image%202023-07-18%20at%2011.00.49%20AM.jpeg?raw=true)
+## Desarrollo
+### Puedes descargar el repositorio en tu escritorio para ver el funcionamiento desde tu máquina
+### Creacion y configuracion de contenedores entre los cuales tenemos: 
+- Bases de datos mongo con replicación 
+
+
