@@ -38,7 +38,7 @@ La aplicación se ha levantado mediante flask, para ello se realizó los siguien
 
 -	Conexión a la base de datos
 
-![Diagrama](captura5)
+![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/Captura5.JPG?raw=true)
 
 Se conecta por defecto al puerto 27017 ya que es nuestro router 1 el cual engloba nuestras bases de datos distribuidas.
 
@@ -46,10 +46,10 @@ Se conecta por defecto al puerto 27017 ya que es nuestro router 1 el cual englob
 Para esto se ha trabajado de la mano con un archivo HTML llamado forms.html el cual se encarga de brindar la interfaz mediante la cual se recopilarán los datos, mientras que nuestra información los procesa con emtodo POST y los envía a nuestras bases de datos 
 **App.py**
 
-![Diagrama](captura6)
+![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/Captura6.JPG?raw=true)
 
 **Form.html** 
 
-![Diagrama](captura7)
+![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/captura7.PNG?raw=true)
 
-![Diagrama](captura8)
+![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/captura8.PNG?raw=true)
