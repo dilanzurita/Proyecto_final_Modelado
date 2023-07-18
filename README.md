@@ -53,3 +53,9 @@ Para esto se ha trabajado de la mano con un archivo HTML llamado forms.html el c
 ![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/captura7.PNG?raw=true)
 
 ![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/captura8.PNG?raw=true)
+
+-	Buscar un registro 
+Para buscar un registro se ha especificado la búsqueda mediante ID proporcionado por el usuario o ID creado por Mongo
+
+![Diagrama]()
+![Diagrama]()
