@@ -20,6 +20,7 @@ La replicación de bases de datos en MongoDB con ETL (Extract, Transform, Load) 
 ### Puedes descargar el repositorio en tu escritorio para ver el funcionamiento desde tu máquina
 ### Creacion y configuracion de contenedores entre los cuales tenemos: 
 - Bases de datos mongo con replicación 
+
 ![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/Captura.JPG)
 ![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/Captura2.JPG)
 ![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/Captura3.JPG)
