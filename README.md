@@ -63,5 +63,5 @@ Para buscar un registro se ha especificado la búsqueda mediante ID proporcionad
 -	Eliminar registro 
 Para elminar un registro se realiza mediante ID de mongo para evitar confuciones con ID similares insertados por el usuario 
 
-![Diagrama]()
-![Diagrama]()
+![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/captura11.PNG)
+![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/captura12.PNG)
