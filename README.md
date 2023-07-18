@@ -25,3 +25,29 @@ La replicación de bases de datos en MongoDB con ETL (Extract, Transform, Load) 
 ![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/Captura2.JPG)
 ![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/Captura3.JPG)
 
+- Shards cuya configuración solo difiere en el puerto, se ha creado shards (a,b,c) 
+
+![Diagrama](https://github.com/dilanzurita/Proyecto_final_Modelado/blob/main/img/Captura4.JPG)
+
+- Puertos: 
+    A = 27022
+    B= 27023
+    C= 27024
+
+La aplicación se ha levantado mediante flask, para ello se realizó los siguientes métodos:
+
+-	Conexión a la base de datos
+
+![Diagrama](captura5)
+
+Se conecta por defecto al puerto 27017 ya que es nuestro router 1 el cual engloba nuestras bases de datos distribuidas.
+
+- Ingreso de datos
+Para esto se ha trabajado de la mano con un archivo HTML llamado forms.html el cual se encarga de brindar la interfaz mediante la cual se recopilarán los datos, mientras que nuestra información los procesa con emtodo POST y los envía a nuestras bases de datos 
+**App.py**
+
+![Diagrama](captura6)
+
+**Form.html** 
+
+![Diagrama](captura7)
